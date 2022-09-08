@@ -14,13 +14,13 @@
   height:85px; 
   background-color:black;
   width:100%; 
-  color:light-blue; 
-  border-bottom:2px solid red;
+  color:blue; 
+  border-bottom:2px solid blue;
   opacity:90%;
 }
 
 .cerchio{
-  border:1px solid orange;
+  border:1px solid blue;
   width:100px; 
   height:100px; 
   background-color:black;
