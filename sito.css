@@ -1,62 +1,198 @@
-.sfondo{
-   margin: 0px;
-  background-image: url("https://i.pinimg.com/736x/44/62/06/44620649f136255313eb7ae05ac832ff.jpg");
+.titolo{
+  font-size:28px;
+  font-family:georgia;
+}
+
+.sottotitolo {
+  font-size:18px;
+  font-family:copperplate;
+  margin-left:160px;
+ }
+
+.intestazione{
+  position: sticky;
+  height:85px; 
+  background-color:black;
+  width:100%; 
+  color:red; 
+  border-bottom:2px solid red;
+  opacity:90%;
+}
+
+.cerchio{
+  border:1px solid orange;
+  width:100px; 
+  height:100px; 
+  background-color:black;
+  border-radius: 100%;
+
+}
+
+.titolone {
+  font-family: helvetica; 
+  font-size: 30px; 
+  text-align: center;
+}
+
+.paragrafo {
+  font-family: helvetica;
+  font-size:14pt; 
+  font-style:italic;
+}
+
+.paragrafo2{
+    font-family: helvetica;
+  font-size:14pt; 
+  font-style:italic;
+  text-align: center;
+}
+
+.info {
+  font-family: helvetica; 
+  font-size: 20px;
+  text-align:center;
+}
+
+
+
+.box{
+  border:2px solid white; 
+  background-color:black;
+  color:white; 
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+  opacity:90%;
+}
+
+.scritta{
+  margin-top:50px;
+  color: white;
+  text-align: center;
+  font-type: Helvetica; 
+}
+
+.descrizione{
+  font-family: helvetica; 
+  font-size: 30px; 
+  text-align: center;
+  color:red
+}
+  
+ .sfondo{
+  margin: 0px;
+  background-image: url("immagini/sfondo.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-.intestazione{
-  position: sticky;
-  height:80px; 
-  background-color:yellow;
-  width:100%; 
-  color:red; 
-  border-bottom:2px solid black;
+#freccina{
+  text-shadow: 0px 0px 10px hsl(0, 130%, 68%);
+  cursor: pointer;
 }
 
-#bandiere{
-  height:30px;
-  margin: 8px; 
-}
-
-#logoACME{
-  height: 70px;
-  border: 4px solid yellow;
-}
-
-.riquadro{
-  border: 2px solid yellow; 
-  background-color:black;
-  color:white; 
-  padding: 20px;
-  border-radius: 15px;
-  margin: 60px;
-  text-align:center;
-}
-H1{
-  font-size: 20px;
-  font-family: Helvetica;
+.top {
+  color: red;
+  background-color: black;
+  border-radius: 40px;
+  pudding:0px 0px 5px 5px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
   text-align: center;
-  color:yellow
 }
 
-p{
-  font-size: 15;
-  font-family: Helvetica;
-  text-align: center;  
+.bandiere{
+  height:30px
 }
 
 footer{
   background-color: black;
-  text-align:center;
-  font-size:12px;
   color: white;
-  border-top: 1px solid yellow;
-  }
-riquadri-gialli{
-  border: 1px solid yellow
+  width: 100%;
+  margin-top: 30px;
+  opacity:80%;
+  text-align: center;
+  font-size: 12px;
 }
-b{
+
+.simboli{
+  font-size: 50px;
+  margin:23px;
+}
+
+.pittura{
+    font-family: helvetica;
+  text-align: center; 
+  font-size:14pt; 
   font-style:italic;
+  border: 2px solid blue;
+  border-radius: 20px 0px;
+}
+
+.grafica{
+    font-family: helvetica;
+  text-align: center; 
+  font-size:14pt; 
+  font-style:italic;
+  border: 2px solid orange;
+  border-radius: 0px 20px;
+}
+
+.scenografia{
+    font-family: helvetica;
+  text-align: center; 
+  font-size:14pt; 
+  font-style:italic;
+  border: 2px solid yellow;
+  border-radius: 20px 0px;
+}
+
+.impresa{
+    font-family: helvetica;
+  text-align: center; 
+  font-size:14pt; 
+  font-style:italic;
+  border: 2px solid purple;
+  border-radius: 20px;
+}
+
+.tecnologie{
+    font-family: helvetica;
+  text-align: center; 
+  font-size:14pt; 
+  font-style:italic;
+  border: 2px solid green;
+  border-radius: 0px 20px;
+}
+.patrimonio{
+    font-family: helvetica;
+  text-align: center; 
+  font-size:14pt; 
+  font-style:italic;
+  border: 2px solid pink;
+  border-radius: 20px;
+}
+
+#bottonecookie {
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#cookie{
+  color: white;
+  font-size:15px;
+  background-color: black;
+  margin: 25px ;
+  width: 200px;
+  padding: 15px;
+  display:none;
+}
+#chiusura{
+  font-size: 15px;
+  margin-left: 160px;
 }
